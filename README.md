@@ -87,22 +87,20 @@ Writing effective AI prompts is a skill most people don't have. Vague, unstructu
 
 ## 📸 Screenshots
 
-### 1. Prompt Builder
-![Prompt Builder](./screenshots/screenshot-1-builder.png)
+### 1. Prompt Builder with Live Preview
+![Prompt Builder](./src/screenshots/screenshot-1-builder.png)
 
-### 2. Live Preview with Generated Prompt
-![Live Preview](./screenshots/screenshot-2-preview.png)
+### 2. Templates Library
+![Templates Library](./src/screenshots/screenshot-2-templates.png)
 
-### 3. Templates Library
-![Templates Library](./screenshots/screenshot-3-templates.png)
+### 3. Saved Prompts
+![Saved Prompts](./src/screenshots/screenshot-3-saved.png)
 
-### 4. Saved Prompts
-![Saved Prompts](./screenshots/screenshot-4-saved.png)
+### 4. Statistics Dashboard
+![Statistics Dashboard](./src/screenshots/screenshot-4-stats.png)
 
-### 5. Statistics Dashboard
-![Statistics Dashboard](./screenshots/screenshot-5-stats.png)
-
----
+### 5. Light Mode View
+![Light Mode](./src/screenshots/screenshot-5-lightmode.png)
 
 ## 🎓 Learnings
 
