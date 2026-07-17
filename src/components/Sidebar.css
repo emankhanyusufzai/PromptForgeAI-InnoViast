@@ -106,3 +106,85 @@
   background: var(--bg-hover);
   color: var(--text-primary);
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    overflow: visible;
+  }
+
+  .sidebar-brand {
+    margin-bottom: 0;
+    margin-right: 6px;
+    flex-shrink: 0;
+  }
+
+  .sidebar-brand-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sidebar-brand-name {
+    font-size: 13px;
+  }
+
+  .sidebar-brand-tag {
+    display: none;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+    flex: 1;
+    gap: 2px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sidebar-nav-item {
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 8px;
+    font-size: 9px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .sidebar-nav-item span {
+    display: block;
+  }
+
+  .sidebar-badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 8px;
+    padding: 0px 4px;
+  }
+
+  .sidebar-theme-toggle {
+    margin-top: 0;
+    margin-left: 4px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 6px 8px;
+    font-size: 0;
+  }
+
+  .sidebar-theme-toggle svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .sidebar-theme-toggle span {
+    display: none;
+  }
+}

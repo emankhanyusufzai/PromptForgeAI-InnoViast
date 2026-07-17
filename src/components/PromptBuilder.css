@@ -127,3 +127,26 @@
   margin-top: 4px;
   text-align: right;
 }
+
+@media (max-width: 768px) {
+  .builder-card {
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .category-row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .category-chip {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .field-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

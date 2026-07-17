@@ -36,3 +36,28 @@
   color: var(--text-secondary);
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .app-shell {
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .app-main {
+    padding: 16px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .page-header h1 {
+    font-size: 22px;
+  }
+
+  .builder-layout {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    width: 100%;
+  }
+}

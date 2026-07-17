@@ -180,3 +180,16 @@
   padding: 4px 10px;
   border-radius: 999px;
 }
+
+@media (max-width: 768px) {
+  .preview-card {
+    padding: 18px;
+    position: static;
+  }
+
+  .preview-actions .btn {
+    min-width: 70px;
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
