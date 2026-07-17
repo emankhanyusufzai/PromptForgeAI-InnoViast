@@ -4,6 +4,7 @@ An AI-powered Prompt Engineering Utility Platform that transforms simple ideas i
 
 🔗 **Live App:** https://prompt-forge-ai-inno-viast.vercel.app
 📦 **Repository:** https://github.com/emankhanyusufzai/PromptForgeAI-InnoViast
+🎥 **Demo Video:** [Watch here](https://drive.google.com/file/d/1-NP7NtpP3y0vHheyL2OS_qE-GPb4MrCS/view?usp=sharing)
 
 ---
 
